@@ -1,6 +1,6 @@
-name: "CloudFlare Create DNS Record"
-description: "Creates a new CloudFlare DNS record"
-author: "InfraWay"
+name: "CloudFlare DNS Updater"
+description: "Creates or updates CloudFlare DNS records"
+author: "domenix"
 
 inputs:
   type:
