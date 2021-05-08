@@ -26,7 +26,8 @@ const getCurrentRecordId = () => {
   }
 
   const name = process.env.INPUT_NAME;
-  const record = result.find((x) => x.name === name);
+  const type = process.env.INPUT_TYPE;
+  const record = result.find((x) => x.name === name && x.type === type);
 
   if (!record) {
     return null
